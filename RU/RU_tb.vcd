@@ -1,0 +1,104 @@
+$date
+	Thu Apr 25 22:35:07 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module RU_Tb $end
+$var wire 32 ! ruRs2_tb [31:0] $end
+$var wire 32 " ruRs1_tb [31:0] $end
+$var reg 32 # DataWr_tb [31:0] $end
+$var reg 1 $ clk_tb $end
+$var reg 5 % rd_tb [4:0] $end
+$var reg 5 & rs1_tb [4:0] $end
+$var reg 5 ' rs2_tb [4:0] $end
+$var reg 1 ( ruWr_tb $end
+$scope module RU_inst $end
+$var wire 32 ) DataWr [31:0] $end
+$var wire 1 $ clk $end
+$var wire 5 * rd [4:0] $end
+$var wire 5 + rs1 [4:0] $end
+$var wire 5 , rs2 [4:0] $end
+$var wire 1 ( ruWr $end
+$var wire 32 - ruRs2 [31:0] $end
+$var wire 32 . ruRs1 [31:0] $end
+$scope begin $ivl_for_loop0 $end
+$var integer 32 / i [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b100000 /
+b0 .
+b0 -
+b1000 ,
+b1010 +
+b1010 *
+b1100111011001110110011101100111 )
+1(
+b1000 '
+b1010 &
+b1010 %
+0$
+b1100111011001110110011101100111 #
+b0 "
+b0 !
+$end
+#5
+b1100111011001110110011101100111 "
+b1100111011001110110011101100111 .
+1$
+#10
+b0 "
+b0 .
+0$
+b1000 &
+b1000 +
+b1100111011001110110011101100000 #
+b1100111011001110110011101100000 )
+b1000 %
+b1000 *
+#15
+b1100111011001110110011101100000 "
+b1100111011001110110011101100000 .
+b1100111011001110110011101100000 !
+b1100111011001110110011101100000 -
+1$
+#20
+b0 "
+b0 .
+0$
+b1001 &
+b1001 +
+b1100111011000000110011101100111 #
+b1100111011000000110011101100111 )
+b1001 %
+b1001 *
+#25
+b1100111011000000110011101100111 "
+b1100111011000000110011101100111 .
+1$
+#30
+b0 "
+b0 .
+0$
+b1011 &
+b1011 +
+b1100111011011000110011111100111 #
+b1100111011011000110011111100111 )
+b1011 %
+b1011 *
+#35
+b1100111011011000110011111100111 "
+b1100111011011000110011111100111 .
+1$
+#40
+0$

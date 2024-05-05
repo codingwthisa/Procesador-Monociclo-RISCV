@@ -1,0 +1,129 @@
+$date
+	Thu Apr 25 22:25:21 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module CU_Tb $end
+$var wire 1 ! RUWr_tb $end
+$var wire 2 " RUDataWrSrc_tb [1:0] $end
+$var wire 3 # ImmSrc_tb [2:0] $end
+$var wire 1 $ DMWr_tb $end
+$var wire 3 % DMCtrl_tb [2:0] $end
+$var wire 5 & BrOp_tb [4:0] $end
+$var wire 4 ' ALUOp_tb [3:0] $end
+$var wire 1 ( ALUBSrc_tb $end
+$var wire 1 ) ALUASrc_tb $end
+$var reg 3 * Function3_tb [2:0] $end
+$var reg 7 + Function7_tb [6:0] $end
+$var reg 7 , Opcode_tb [6:0] $end
+$scope module CU_inst $end
+$var wire 3 - Function3 [2:0] $end
+$var wire 7 . Function7 [6:0] $end
+$var wire 7 / Opcode [6:0] $end
+$var reg 1 ) ALUASrc $end
+$var reg 1 ( ALUBSrc $end
+$var reg 4 0 ALUOp [3:0] $end
+$var reg 5 1 BrOp [4:0] $end
+$var reg 3 2 DMCtrl [2:0] $end
+$var reg 1 $ DMWr $end
+$var reg 3 3 ImmSrc [2:0] $end
+$var reg 2 4 RUDataWrSrc [1:0] $end
+$var reg 1 ! RUWr $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b0 4
+b0 3
+b0 2
+b0 1
+b1000 0
+b110011 /
+b100000 .
+b0 -
+b110011 ,
+b100000 +
+b0 *
+0)
+0(
+b1000 '
+b0 &
+b0 %
+0$
+b0 #
+b0 "
+1!
+$end
+#10
+1(
+b10011 ,
+b10011 /
+#20
+b0 '
+b0 0
+1)
+0!
+b1000 &
+b1000 1
+b101 #
+b101 3
+b1100011 ,
+b1100011 /
+#30
+0)
+1$
+b0 &
+b0 1
+b1 #
+b1 3
+b100011 ,
+b100011 /
+#40
+b1 "
+b1 4
+1!
+0$
+b0 #
+b0 3
+b11 ,
+b11 /
+#50
+b0 "
+b0 4
+0!
+b11111 &
+b11111 1
+b1100111 ,
+b1100111 /
+#60
+b10 "
+b10 4
+1)
+1!
+b110 #
+b110 3
+b1101111 ,
+b1101111 /
+#70
+b0 "
+b0 4
+0)
+b0 &
+b0 1
+b10 #
+b10 3
+b110111 ,
+b110111 /
+#80
+1)
+b10111 ,
+b10111 /
+#90

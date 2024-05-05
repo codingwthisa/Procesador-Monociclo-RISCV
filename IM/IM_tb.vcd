@@ -1,0 +1,94 @@
+$date
+	Mon Apr 29 23:17:24 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module IM_Tb $end
+$var wire 32 ! instruction_tb [31:0] $end
+$var reg 32 " address_tb [31:0] $end
+$scope module IM_inst $end
+$var wire 32 # address [31:0] $end
+$var reg 32 $ instruction [31:0] $end
+$var reg 8 % out1 [7:0] $end
+$var reg 8 & out2 [7:0] $end
+$var reg 8 ' out3 [7:0] $end
+$var reg 8 ( out4 [7:0] $end
+$scope begin $ivl_for_loop0 $end
+$var integer 32 ) i [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b100000 )
+b10011 (
+b100 '
+b10100000 &
+b0 %
+b101000000000010000010011 $
+b0 #
+b0 "
+b101000000000010000010011 !
+$end
+#10
+b10100000000010010010011 !
+b10100000000010010010011 $
+b10010011 (
+b1010000 &
+b100 "
+b100 #
+#20
+b100100110011 !
+b100100110011 $
+b110011 (
+b1001 '
+b0 &
+b1000 "
+b1000 #
+#30
+b1000000010100010011 !
+b1000000010100010011 $
+b10011 (
+b101 '
+b100 &
+b1100 "
+b1100 #
+#40
+b1001000010110010011 !
+b1001000010110010011 $
+b10010011 (
+b10000101 '
+b10000 "
+b10000 #
+#50
+b110000000000000011100111 !
+b110000000000000011100111 $
+b11100111 (
+b0 '
+b11000000 &
+b10100 "
+b10100 #
+#60
+b1010000100100010011 !
+b1010000100100010011 $
+b10011 (
+b1001 '
+b101 &
+b11000 "
+b11000 #
+#70
+b10010000010100010011 !
+b10010000010100010011 $
+b101 '
+b1001 &
+b11100 "
+b11100 #
+#80
